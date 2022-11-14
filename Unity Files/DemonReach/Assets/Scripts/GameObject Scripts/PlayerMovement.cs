@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public bool facingRight;
     public bool grounded;
     [SerializeField] private Rigidbody2D rigidBody;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] private CapsuleCollider2D groundCheck;
     [SerializeField] private LayerMask platformLayer;
     private Vector2 size;
     private void Start()
@@ -25,14 +25,17 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        if(Input.GetKeyDown(KeyCode.W) && IsGrounded())
+        grounded = groundCheck.IsTouchingLayers(platformLayer);
+        if (Input.GetKeyDown(KeyCode.W) && grounded)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
+
         }
+        /*
         if(Input.GetKeyDown(KeyCode.W) && rigidBody.velocity.y > 0f && IsGrounded())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, rigidBody.velocity.y * 0.5f);
-        }
+        }*/
         Flip();
     }
     private void FixedUpdate()
@@ -50,12 +53,5 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private bool IsGrounded()
-    {
-        //bool isGrounded = Physics2D.OverlapBox(groundCheck.position, size, platformLayer);
-        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, platformLayer);
-        grounded = isGrounded;
-        return isGrounded;
-    }
        
 }
