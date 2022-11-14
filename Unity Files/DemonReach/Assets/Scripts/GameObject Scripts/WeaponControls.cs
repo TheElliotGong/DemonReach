@@ -32,6 +32,7 @@ public class WeaponControls : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
         }*/
+        Fire();
     }
 
     void Fire()
