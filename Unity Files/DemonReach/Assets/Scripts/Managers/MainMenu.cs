@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene("Level_Select");
+        SceneManager.LoadScene("Arena");
     }
 
     public void QuitGame()
