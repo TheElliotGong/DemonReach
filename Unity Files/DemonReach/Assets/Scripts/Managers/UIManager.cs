@@ -11,9 +11,7 @@ public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
-    [SerializeField] private GameObject nextButton;
     [SerializeField] private TextMesh score;
     
     public int playerScore;
@@ -27,14 +25,10 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
-        AudioManager.instance.SetAudio(1);
         finished = false;
         playerScore = 0;
 
         pauseMenu.SetActive(false);
-        levelResult.SetActive(false);
-
-
     }
 
     // Update is called once per frame
@@ -66,7 +60,7 @@ public class UIManager : MonoBehaviour
         {
             highScore = playerScore;
         }
-        levelResult.SetActive(true);
+        //levelResult.SetActive(true);
         ShowPotionsAchieved();
         
 
@@ -101,7 +95,7 @@ public class UIManager : MonoBehaviour
         //Show star rating if the current score is at least a third of the max possible score.
         if (currentPercentage >= 0.33f )
         {
-            nextButton.SetActive(true);
+            //nextButton.SetActive(true);
             AudioManager.instance.SetAudio(2);
             potions[0].GetComponent<Image>().sprite = potionImages[1];
             if(currentPercentage >= 0.66f)
@@ -114,8 +108,7 @@ public class UIManager : MonoBehaviour
         //Make sure that the player's score is saved.
         else
         {
-            nextButton.SetActive(false);
-            AudioManager.instance.SetAudio(3);
+            //nextButton.SetActive(false);
             //Only set completed as false if the high score isn't greater than 33 percent.
 
         }
