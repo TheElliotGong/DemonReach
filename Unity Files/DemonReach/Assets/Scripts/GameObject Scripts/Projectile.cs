@@ -25,7 +25,9 @@ public class Projectile : MonoBehaviour
 
 
         Vector3 direction = mousePos - transform.position;
+        direction = direction.normalized;
         Vector3 rotation = transform.position - mousePos;
+        rotation = rotation.normalized;
         rigidBody.velocity = new Vector2(direction.x, direction.y).normalized * speed;
         float angle = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle );
