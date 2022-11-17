@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        hp = 10;
         facingRight = true;
         grounded = true;
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
@@ -50,5 +51,12 @@ public class Player : MonoBehaviour
         }
     }
 
-       
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        hp = hp - 2;
+        if(hp == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
