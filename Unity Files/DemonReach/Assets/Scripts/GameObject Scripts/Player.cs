@@ -7,9 +7,12 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     public float speed;
     public float hp;
-    public float horizontal;
+    public float maxHP;
+    
     
     public float jumpForce;
+    
+    public float horizontal;
     private bool facingRight;
     private bool grounded;
     [SerializeField] private Rigidbody2D rigidBody;

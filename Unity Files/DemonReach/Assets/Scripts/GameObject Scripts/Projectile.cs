@@ -7,10 +7,11 @@ public class Projectile : MonoBehaviour
 {
     public enum ProjectileType { player, enemy};
     // Start is called before the first frame update
+    public ProjectileType projectileType;
     public float damage;
     public float speed;
 
-    public ProjectileType projectileType;
+    
     private Camera cam;
 
     private Rigidbody2D rigidBody;
