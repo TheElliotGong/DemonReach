@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject upgradeMenu;
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private TextMesh score;
     
@@ -29,6 +30,7 @@ public class UIManager : MonoBehaviour
         playerScore = 0;
 
         pauseMenu.SetActive(false);
+        upgradeMenu.SetActive(false);
     }
 
     // Update is called once per frame

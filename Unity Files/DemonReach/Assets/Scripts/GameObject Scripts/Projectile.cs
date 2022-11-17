@@ -23,14 +23,15 @@ public class Projectile : MonoBehaviour
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-
+        
         Vector3 direction = mousePos - transform.position;
+
         Vector3 rotation = transform.position - mousePos;
-        rigidBody.velocity = new Vector2(direction.x, direction.y).normalized * speed;
+        //rigidBody.velocity = new Vector2(direction.x, direction.y).normalized * speed;
         float angle = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle );
     }
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         
     }

@@ -21,17 +21,6 @@ public class WeaponControls : MonoBehaviour
         Vector3 rotation = mousePos - transform.position;
         float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, degree);
-        //transform.Rotate(new Vector3(0.0f, 0.0f, degree));
-        //transform.eulerAngles = new Vector3(0, 0, degree);
-        /*
-        if(mousePos.x < transform.position.x)
-        {
-            transform.eulerAngles = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
-        }
-        else
-        {
-            transform.eulerAngles = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
-        }*/
         Fire();
     }
 
@@ -49,7 +38,8 @@ public class WeaponControls : MonoBehaviour
         if(Input.GetMouseButton(0) && canFire == true)
         {
             canFire = false;
-            Instantiate(projectile, projectileTransform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(projectile, projectileTransform.position, Quaternion.identity);
+            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * 1100, ForceMode2D.Impulse);
         }
     }
 }

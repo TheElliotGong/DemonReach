@@ -10,12 +10,10 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
 
-        if (SceneManager.GetActiveScene().name == "Menu")
-            AudioManager.instance.SetAudio(1);
     }
-    public void StartGame()
+    public void LoadScene(string name)
     {
-        SceneManager.LoadScene("Arena");
+        SceneManager.LoadScene(name);
     }
 
     public void QuitGame()
@@ -23,10 +21,7 @@ public class MainMenu : MonoBehaviour
         Debug.Log("You quit the game!");
         Application.Quit();
     }
-    public void LoadScene(string name)
-    {
-        SceneManager.LoadScene(name);
-    }
+
     public void OpenCredits()
     {
 
@@ -36,6 +31,6 @@ public class MainMenu : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene("Menu");
-       
+        AudioManager.instance.SetAudio(0);
     }
 }
