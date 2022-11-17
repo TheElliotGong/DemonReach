@@ -31,10 +31,17 @@ public class Projectile : MonoBehaviour
         float angle = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle );
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.transform.tag == "Wall")
+            Destroy(gameObject);
+        else if(collision.transform.tag == "Player")
+        {
+
+        }
     }
+
+    
 
     public void DealDamage()
     {
