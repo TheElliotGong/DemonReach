@@ -54,10 +54,8 @@ public class PlatformABehaviour : MonoBehaviour
 
         else if(behaviourStates == BehaviourStates.BossFour)
         {
-            //diagon alley sheesh
-            transform.Translate(velocity * Time.deltaTime * 0.707f, velocity * Time.deltaTime * 0.707f, 0);
+            //disappearing after contact?
 
-            //will figure out the borders later, there seems to be multiple coords going on, weirdass unity
         }
     }
 }
