@@ -25,7 +25,7 @@ public class UpgradeManager : MonoBehaviour
 
     public void RandomizeUpgrades()
     {
-        List<int> upgradeOptions;
+        List<int> upgradeOptions = new List<int>();
         for(int i = 0; i < upgrades.Count; i++)
         {
 
