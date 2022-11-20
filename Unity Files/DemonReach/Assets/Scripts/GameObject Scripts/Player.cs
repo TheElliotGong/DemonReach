@@ -53,7 +53,10 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //code in knock back here
         hp = hp - 2;
+        //hope this bounces each other off
+
         if(hp == 0)
         {
             Destroy(gameObject);
