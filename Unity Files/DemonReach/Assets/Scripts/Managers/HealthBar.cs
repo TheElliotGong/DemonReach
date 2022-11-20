@@ -11,6 +11,7 @@ public class HealthBar : MonoBehaviour
     public float currentHealth;
     public float maxHealth;
     public Player playerScript;
+    
     void Start()
     {
         healthBar = GetComponent<Image>();

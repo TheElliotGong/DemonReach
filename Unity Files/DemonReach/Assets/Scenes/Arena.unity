@@ -636,7 +636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b614461598e2a5a4bbc6944469327492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeType: 0
+  type: 0
   playerScript: {fileID: 1162225841}
 --- !u!114 &277463004
 MonoBehaviour:
@@ -1562,7 +1562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b614461598e2a5a4bbc6944469327492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeType: 0
+  type: 0
   playerScript: {fileID: 1162225841}
 --- !u!114 &539058486
 MonoBehaviour:
@@ -2170,9 +2170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeButtons:
-  - {fileID: 539058486}
-  - {fileID: 1007822078}
-  - {fileID: 277463004}
+  - {fileID: 539058485}
+  - {fileID: 1007822077}
+  - {fileID: 277463003}
 --- !u!1 &875408293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2427,7 +2427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b614461598e2a5a4bbc6944469327492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeType: 0
+  type: 0
   playerScript: {fileID: 1162225841}
 --- !u!114 &1007822078
 MonoBehaviour:
@@ -2812,10 +2812,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 300
-  hp: 0
+  hp: 100
   maxHP: 0
-  horizontal: 0
   jumpForce: 600
+  horizontal: 0
   rigidBody: {fileID: 1162225840}
   groundCheck: {fileID: 402008056}
   platformLayer:

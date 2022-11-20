@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        hp = 10;
         facingRight = true;
         grounded = true;
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
