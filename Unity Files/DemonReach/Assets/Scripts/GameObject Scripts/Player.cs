@@ -57,7 +57,23 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //code in knock back here
-        hp = hp - 2;
+        if (collision.gameObject.tag == "Enemy")
+        {
+            hp = hp - 2;
+
+            //knockback
+            if(collision.rigidbody.velocity.x > 0)
+            {
+                collision.rigidbody.AddForce(new Vector2(-50000, 0));
+                rigidBody.AddForce(new Vector2(50000, 0));
+            }
+
+            else if(collision.rigidbody.velocity.x < 0)
+            {
+                collision.rigidbody.AddForce(new Vector2(50000, 0));
+                rigidBody.AddForce(new Vector2(-50000, 0));
+            }
+        }
         //hope this bounces each other off
 
         if(hp == 0)
