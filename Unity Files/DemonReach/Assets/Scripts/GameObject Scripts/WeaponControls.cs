@@ -6,22 +6,35 @@ public class WeaponControls : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public Camera cam;
+    private Camera cam;
     private Vector3 mousePos;
+    public GameObject pauseMenu;
+    public GameObject upgradeMenu;
     public GameObject projectile;
+    public Transform projectileHolder;
     public Transform projectileTransform;
+
     public bool canFire;
+
     public float timeBetweenFiring;
     private float timer;
-
+    private void Start()
+    {
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        
+    }
     private void Update()
     {
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        if(pauseMenu.activeSelf == false || upgradeMenu.activeSelf == false)
+        {
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         
-        Vector3 rotation = mousePos - transform.position;
-        float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, degree);
-        Fire();
+            Vector3 rotation = mousePos - transform.position;
+            float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, degree);
+            Fire();
+        }
+        
     }
 
     void Fire()
@@ -39,6 +52,7 @@ public class WeaponControls : MonoBehaviour
         {
             canFire = false;
             GameObject bullet = Instantiate(projectile, projectileTransform.position, Quaternion.identity);
+            bullet.transform.parent = projectileHolder;
             bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * 1100, ForceMode2D.Impulse);
         }
     }

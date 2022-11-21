@@ -19,16 +19,19 @@ public class UIManager : MonoBehaviour
     public int maxScore;
     public int highScore;
     public int levelNum;
-    
-     private bool finished;
+
+    private WeaponControls weapon;
+
     [SerializeField] private GameObject[] potions;
     [SerializeField] private Sprite[] potionImages;
     void Start()
     {
         Time.timeScale = 1f;
-        finished = false;
-        playerScore = 0;
 
+        playerScore = 0;
+        weapon = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<WeaponControls>();
+        weapon.pauseMenu = pauseMenu;
+        weapon.upgradeMenu = upgradeMenu;
         pauseMenu.SetActive(false);
         upgradeMenu.SetActive(false);
     }
@@ -71,18 +74,12 @@ public class UIManager : MonoBehaviour
     public void LoadScene(string name)
     {
         Time.timeScale = 1f;
+        if(name == "Arena")
+        {
 
+        }
          SceneManager.LoadScene(name);
-        if(name == "Level_Select")
-        {
-            AudioManager.instance.SetAudio(0);
-
-        }
-        else if(name == "Victory")
-        {
-            AudioManager.instance.SetAudio(4);
-
-        }
+        
     }
 
     public void ShowPotionsAchieved()

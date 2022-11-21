@@ -11,8 +11,10 @@ public class Upgrade : MonoBehaviour
     public List<Sprite> buttonImages;
     private Image image;
     public Text upgradeName;
+    private Player player;
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         //Load proper image based on upgrade type.
         image = gameObject.GetComponent<Image>();
         switch(type)
@@ -45,19 +47,19 @@ public class Upgrade : MonoBehaviour
         {
             //Extra hp
             case 1:
-                Player.instance.hp *= 1.25f;
+                player.hp *= 1.25f;
                 break;
             //Extra speed
             case 2:
-                Player.instance.speed *= 1.25f;
+                player.speed *= 1.25f;
                 break;
             //Extra bullet speed
             case 3:
-                Player.instance.bulletSpeed *= 1.25f;
+                player.bulletSpeed *= 1.25f;
                 break;
             //Extra bullet dmg
             case 4:
-                Player.instance.bulletDmg *= 1.25f;
+                player.bulletDmg *= 1.25f;
                 break;
         }
     }

@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
     
-    public static Player instance;
    
     public float speed;
     public float hp;
@@ -25,17 +24,7 @@ public class Player : MonoBehaviour
     /// <summary>
     /// Set the player script instance
     /// </summary>
-    private void Awake()
-    {
-        if (instance != null)
-            Destroy(gameObject);
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
 
-    }
 
 
     private void Start()
