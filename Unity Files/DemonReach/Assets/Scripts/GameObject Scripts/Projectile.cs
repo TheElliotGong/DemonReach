@@ -8,8 +8,8 @@ public class Projectile : MonoBehaviour
     public enum ProjectileType { player, enemy};
     // Start is called before the first frame update
     public ProjectileType projectileType;
-    public float damage;
-    public float speed;
+    private float damage;
+    private float speed;
 
     
     private Camera cam;
@@ -20,6 +20,8 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
+        damage = Player.instance.bulletDmg;
+        speed = Player.instance.bulletSpeed;
         rigidBody = GetComponent<Rigidbody2D>();
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);

@@ -5,23 +5,42 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
+    
+    public static Player instance;
+   
     public float speed;
     public float hp;
     public float maxHP;
-    
-    
     public float jumpForce;
+    public float bulletSpeed;
+    public float bulletDmg;
     
-    public float horizontal;
+    private float horizontal;
     private bool facingRight;
     private bool grounded;
     [SerializeField] private Rigidbody2D rigidBody;
     [SerializeField] private CapsuleCollider2D groundCheck;
     [SerializeField] private LayerMask platformLayer;
+    
+    /// <summary>
+    /// Set the player script instance
+    /// </summary>
+    private void Awake()
+    {
+        if (instance != null)
+            Destroy(gameObject);
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+
+    }
+
 
     private void Start()
     {
-        hp = 10;
+        horizontal = 0;
         facingRight = true;
         grounded = true;
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
