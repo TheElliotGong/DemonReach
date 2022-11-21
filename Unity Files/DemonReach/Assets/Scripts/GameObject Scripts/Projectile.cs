@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "Wall")
+        if (collision.transform.tag == "Wall" || collision.transform.tag == "Enemy")
             Destroy(gameObject);
         else if(collision.transform.tag == "Player")
         {

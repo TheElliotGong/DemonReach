@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             hp = hp - 2;
-
+            Debug.Log("player hit");
             //knockback
             if(collision.rigidbody.velocity.x > 0)
             {
