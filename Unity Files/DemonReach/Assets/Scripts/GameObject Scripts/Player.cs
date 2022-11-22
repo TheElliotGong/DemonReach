@@ -5,22 +5,22 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    
-   
+
+
     public float speed;
     public float hp;
     public float maxHP;
     public float jumpForce;
     public float bulletSpeed;
     public float bulletDmg;
-    
+
     private float horizontal;
     private bool facingRight;
     private bool grounded;
     [SerializeField] private Rigidbody2D rigidBody;
     [SerializeField] private CapsuleCollider2D groundCheck;
     [SerializeField] private LayerMask platformLayer;
-    
+
     /// <summary>
     /// Set the player script instance
     /// </summary>
@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
     }
     private void Flip()
     {
-        if(facingRight == true && horizontal < 0.0f || facingRight == false && horizontal > 0.0f)
+        if (facingRight == true && horizontal < 0.0f || facingRight == false && horizontal > 0.0f)
         {
             facingRight = !facingRight;
             Vector3 localScale = transform.localScale;
@@ -70,13 +70,13 @@ public class Player : MonoBehaviour
             hp = hp - 2;
             Debug.Log("player hit");
             //knockback
-            if(collision.rigidbody.velocity.x > 0)
+            if (collision.rigidbody.velocity.x > 0)
             {
                 collision.rigidbody.AddForce(new Vector2(-50000, 0));
                 rigidBody.AddForce(new Vector2(50000, 0));
             }
 
-            else if(collision.rigidbody.velocity.x < 0)
+            else if (collision.rigidbody.velocity.x < 0)
             {
                 collision.rigidbody.AddForce(new Vector2(50000, 0));
                 rigidBody.AddForce(new Vector2(-50000, 0));
@@ -84,9 +84,11 @@ public class Player : MonoBehaviour
         }
         //hope this bounces each other off
 
-        if(hp == 0)
+        if (hp == 0)
         {
             Destroy(gameObject);
         }
     }
+
+    public bool Grounded { get { return grounded; } }
 }
