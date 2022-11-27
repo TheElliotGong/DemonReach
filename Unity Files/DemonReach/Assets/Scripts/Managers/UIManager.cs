@@ -58,18 +58,7 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void ShowLevelResult()
-    {
-        Time.timeScale = 0f;
-        if (playerScore >= highScore)
-        {
-            highScore = playerScore;
-        }
-        //levelResult.SetActive(true);
-        ShowPotionsAchieved();
-        
 
-    }
 
     public void LoadScene(string name)
     {

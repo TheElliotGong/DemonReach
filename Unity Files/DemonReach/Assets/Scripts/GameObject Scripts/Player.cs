@@ -67,24 +67,22 @@ public class Player : MonoBehaviour
         //code in knock back here
         if (collision.gameObject.tag == "Enemy")
         {
-            hp = hp - 2;
+            hp -= 2;
             Debug.Log("player hit");
             //knockback
-            if (collision.rigidbody.velocity.x > 0)
+            if (collision.transform.position.x > transform.position.x)
             {
-                collision.rigidbody.AddForce(new Vector2(-50000, 0));
                 rigidBody.AddForce(new Vector2(50000, 0));
             }
 
-            else if (collision.rigidbody.velocity.x < 0)
+            else if (collision.transform.position.x < transform.position.x)
             {
-                collision.rigidbody.AddForce(new Vector2(50000, 0));
                 rigidBody.AddForce(new Vector2(-50000, 0));
             }
         }
         //hope this bounces each other off
 
-        if (hp == 0)
+        if (hp <= 0)
         {
             Destroy(gameObject);
         }

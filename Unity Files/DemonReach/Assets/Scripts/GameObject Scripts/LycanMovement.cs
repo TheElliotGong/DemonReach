@@ -30,7 +30,7 @@ public class LycanMovement : MonoBehaviour
 
         else if(player.transform.position.x < lycan.transform.position.x)
         {
-            velocity = new Vector2(-1 * speed, 0);
+            velocity = new Vector2(-speed, 0);
         }
 
         lycan.transform.Translate(velocity * Time.deltaTime);

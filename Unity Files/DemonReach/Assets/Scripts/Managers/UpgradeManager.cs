@@ -9,18 +9,30 @@ public class UpgradeManager : MonoBehaviour
     // Start is called before the first frame update
     public enum UpgradeType { moreHealth, moveSpeed, bulletSpeed, bulletDmg };
     private UpgradeType upgradeType;
-    
+    private bool active;
     
     public List<Upgrade> upgrades;
+
+
     void Start()
     {
+        active = true;
         RandomizeUpgrades();
+        active = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(active == true)
+        {
+            RandomizeUpgrades();
+            active = false;
+        }
+    }
+    public void SetActive(bool value)
+    {
+        active = value;
     }
 
     public void RandomizeUpgrades()
