@@ -51,6 +51,9 @@ public class Player : MonoBehaviour
     {
         rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
     }
+    /// <summary>
+    /// Flip the sprite depending on the direction the player is moving in.
+    /// </summary>
     private void Flip()
     {
         if (facingRight == true && horizontal < 0.0f || facingRight == false && horizontal > 0.0f)

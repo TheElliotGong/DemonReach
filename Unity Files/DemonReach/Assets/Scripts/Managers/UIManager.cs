@@ -13,9 +13,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject upgradeMenu;
     [SerializeField] private GameObject pauseButton;
-    [SerializeField] private TextMesh score;
+    [SerializeField] private Text bossCounter;
     
-    public int playerScore;
+    public int bossNum;
     public int maxScore;
     public int highScore;
     public int levelNum;
@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
 
-        playerScore = 0;
+        bossNum = 1;
         weapon = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<WeaponControls>();
         weapon.pauseMenu = pauseMenu;
         weapon.upgradeMenu = upgradeMenu;
@@ -41,11 +41,10 @@ public class UIManager : MonoBehaviour
     {
         //for now it's just for level one i'll update it to accomodate more levels once i know it works
     }
-    public void UpdateScore(int points)
+    public void NextBoss()
     {
-
-        playerScore += points;
-        score.text = playerScore.ToString();
+        bossNum++;
+        bossCounter.text = "Boss " + bossNum;
     }
     public void PauseGame()
     {
@@ -71,38 +70,5 @@ public class UIManager : MonoBehaviour
         
     }
 
-    public void ShowPotionsAchieved()
-    {
-        float currentPercentage = (float)(playerScore) / (float)(maxScore);
-        float highScorePercentage = 0f;
-        //update the player's high score percentage if the high score is actually greater than 0.
-        if(highScore > 0)
-        {
-            highScorePercentage = (float)(highScore) / (float)(maxScore);
-        }
-        //Show star rating if the current score is at least a third of the max possible score.
-        if (currentPercentage >= 0.33f )
-        {
-            //nextButton.SetActive(true);
-            AudioManager.instance.SetAudio(2);
-            potions[0].GetComponent<Image>().sprite = potionImages[1];
-            if(currentPercentage >= 0.66f)
-                potions[1].GetComponent<Image>().sprite = potionImages[1];
-            if(currentPercentage >= 0.9f)
-                potions[2].GetComponent<Image>().sprite = potionImages[1];
-            
-            
-        }
-        //Make sure that the player's score is saved.
-        else
-        {
-            //nextButton.SetActive(false);
-            //Only set completed as false if the high score isn't greater than 33 percent.
-
-        }
-
-
-
-    }
 
 }
