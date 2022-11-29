@@ -477,7 +477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240619505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -580.9292, y: -455.92453, z: 278.43124}
+  m_LocalPosition: {x: -663, y: -380, z: 278.43124}
   m_LocalScale: {x: 123.987625, y: 7.4120364, z: 72.7456}
   m_Children: []
   m_Father: {fileID: 984286324}
@@ -989,7 +989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285315681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37, y: -172, z: 278.43124}
+  m_LocalPosition: {x: -69, y: -93, z: 278.43124}
   m_LocalScale: {x: 123.987625, y: 7.4120364, z: 72.7456}
   m_Children: []
   m_Father: {fileID: 984286324}
@@ -1104,8 +1104,15 @@ MonoBehaviour:
   speed: 300
   lycan: {fileID: 1205729564}
   player: {fileID: 1162225836}
-  playerScript: {fileID: 0}
+  playerScript: {fileID: 1162225841}
   gravitationalAcceleration: 10
+  jumpTriggers:
+  - {fileID: 240619505}
+  - {fileID: 1799280002}
+  - {fileID: 1494863397}
+  - {fileID: 982571434}
+  - {fileID: 285315681}
+  rigidBody: {fileID: 1205729565}
 --- !u!4 &304691938
 Transform:
   m_ObjectHideFlags: 0
@@ -1114,8 +1121,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304691935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 49.81091, y: 49.81091, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1205729568}
   m_Father: {fileID: 891082486}
@@ -2633,7 +2640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982571434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -181, y: -170, z: 278.43124}
+  m_LocalPosition: {x: -314, y: -94, z: 278.43124}
   m_LocalScale: {x: 123.987625, y: 7.4120364, z: 72.7456}
   m_Children: []
   m_Father: {fileID: 984286324}
@@ -2740,7 +2747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984286323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -118.0708, y: 79.92454, z: -278.43124}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 240619506}
@@ -3121,7 +3128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162225836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 359, y: -296, z: 0}
+  m_LocalPosition: {x: 359, y: -301, z: 0}
   m_LocalScale: {x: 80, y: 80, z: 1}
   m_Children:
   - {fileID: 2061969713}
@@ -3142,7 +3149,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.035757646, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3153,7 +3160,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 2}
+  m_Size: {x: 0.8563584, y: 2}
   m_EdgeRadius: 0
 --- !u!50 &1162225840
 Rigidbody2D:
@@ -3191,7 +3198,7 @@ MonoBehaviour:
   speed: 400
   hp: 100
   maxHP: 100
-  jumpForce: 600
+  jumpForce: 700
   bulletSpeed: 0
   bulletDmg: 0
   rigidBody: {fileID: 1162225840}
@@ -3210,6 +3217,7 @@ GameObject:
   - component: {fileID: 1205729568}
   - component: {fileID: 1205729567}
   - component: {fileID: 1205729566}
+  - component: {fileID: 1205729565}
   m_Layer: 0
   m_Name: LycanGFX
   m_TagString: Enemy
@@ -3217,6 +3225,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!50 &1205729565
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205729564}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 24923.258
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 10
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &1205729566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3302,8 +3331,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205729564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.25, y: -6.48, z: 1}
-  m_LocalScale: {x: 2.5, y: 2, z: 1}
+  m_LocalPosition: {x: -508, y: -319, z: -27.008}
+  m_LocalScale: {x: 142.53802, y: 114.030426, z: 57.015213}
   m_Children:
   - {fileID: 1825427414}
   m_Father: {fileID: 304691938}
@@ -3757,7 +3786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494863397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 413, y: -454, z: 278.43124}
+  m_LocalPosition: {x: 286, y: -380, z: 278.43124}
   m_LocalScale: {x: 123.987625, y: 7.4120364, z: 72.7456}
   m_Children: []
   m_Father: {fileID: 984286324}
@@ -4265,7 +4294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799280002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -79, y: -456, z: 278.43124}
+  m_LocalPosition: {x: -188, y: -380, z: 278.43124}
   m_LocalScale: {x: 123.987625, y: 7.4120364, z: 72.7456}
   m_Children: []
   m_Father: {fileID: 984286324}
