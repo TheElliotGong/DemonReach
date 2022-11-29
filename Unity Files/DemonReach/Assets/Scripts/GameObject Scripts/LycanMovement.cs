@@ -54,9 +54,10 @@ public class LycanMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //now i need to figure out when the player on the platform
-        if(playerScript.Grounded)
+        if(player.transform.position.y > -13.5)
         {
-
+            //need to add jump force
+            velocity = new Vector2(speed, 400);
         }
     }
 }
