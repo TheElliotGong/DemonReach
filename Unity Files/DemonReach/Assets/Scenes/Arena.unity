@@ -1104,6 +1104,7 @@ MonoBehaviour:
   speed: 300
   lycan: {fileID: 1205729564}
   player: {fileID: 1162225836}
+  playerScript: {fileID: 0}
   gravitationalAcceleration: 10
 --- !u!4 &304691938
 Transform:
@@ -3142,7 +3143,6 @@ GameObject:
   - component: {fileID: 1205729568}
   - component: {fileID: 1205729567}
   - component: {fileID: 1205729566}
-  - component: {fileID: 1205729569}
   m_Layer: 0
   m_Name: LycanGFX
   m_TagString: Enemy
@@ -3242,18 +3242,6 @@ Transform:
   m_Father: {fileID: 304691938}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1205729569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205729564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce02bdadde178364ca24fbd5517facb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1265724778
 GameObject:
   m_ObjectHideFlags: 0
