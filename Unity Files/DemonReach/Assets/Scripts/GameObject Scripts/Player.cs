@@ -61,9 +61,12 @@ public class Player : MonoBehaviour
         if (facingRight == true && horizontal < 0.0f || facingRight == false && horizontal > 0.0f)
         {
             facingRight = !facingRight;
-            Vector3 localScale = transform.localScale;
+           
+            //transform.localScale = localScale;
+            Transform playerSprite = transform.Find("Player_Sprite");
+            Vector3 localScale = playerSprite.localScale;
             localScale.x *= -1.0f;
-            transform.localScale = localScale;
+            playerSprite.localScale = localScale;
         }
     }
 
@@ -91,13 +94,13 @@ public class Player : MonoBehaviour
             }*/
             if (collision.transform.position.x > transform.position.x)
             {
-                rigidBody.velocity = new Vector2(-500, 500);
+                rigidBody.velocity = new Vector2(-600, 600);
                 //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
 
             else if (collision.transform.position.x < transform.position.x)
             {
-                rigidBody.velocity = new Vector2(500, 500);
+                rigidBody.velocity = new Vector2(600, 600);
                 //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
             
