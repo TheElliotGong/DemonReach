@@ -8,6 +8,8 @@ public class WeaponControls : MonoBehaviour
 
     private Camera cam;
     private Vector3 mousePos;
+    private Player playerScript;
+
     public GameObject pauseMenu;
     public GameObject upgradeMenu;
     public GameObject projectile;
@@ -21,7 +23,9 @@ public class WeaponControls : MonoBehaviour
     private void Start()
     {
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        
+        playerScript = GameObject.Find("Player").GetComponent<Player>();
+
+
     }
     private void Update()
     {
@@ -53,7 +57,7 @@ public class WeaponControls : MonoBehaviour
             canFire = false;
             GameObject bullet = Instantiate(projectile, projectileTransform.position, Quaternion.identity);
             bullet.transform.parent = projectileHolder;
-            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * 1100, ForceMode2D.Impulse);
+            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * playerScript.bulletSpeed, ForceMode2D.Impulse);
         }
     }
 }
