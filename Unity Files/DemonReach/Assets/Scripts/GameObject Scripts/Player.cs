@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public float bulletSpeed;
     public float bulletDmg;
 
+    private float knockBackTimer;
     private float horizontal;
     private bool facingRight;
     private bool grounded;
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        knockBackTimer = 0.0f;
         horizontal = 0;
         facingRight = true;
         grounded = true;
@@ -73,15 +75,34 @@ public class Player : MonoBehaviour
             hp -= 2;
             Debug.Log("player hit");
             //knockback
+            /*
+            if (collision.transform.position.y < rigidBody.transform.position.y)
+            {
+                float angle = Mathf.Atan((rigidBody.transform.position.y - collision.transform.position.y) / (Mathf.Abs(rigidBody.transform.position.x - collision.transform.position.x)))
+                    * 180 / Mathf.PI;
+                if (collision.transform.position.x > transform.position.x)
+                {
+                    rigidBody.AddForce(new Vector2(-750 * Mathf.Cos(angle), 750 * Mathf.Sin(angle)));
+                }
+                else if (collision.transform.position.x < transform.position.x)
+                {
+                    rigidBody.AddForce(new Vector2(750 * Mathf.Cos(angle), 750 * Mathf.Sin(angle)));
+                }
+            }*/
             if (collision.transform.position.x > transform.position.x)
             {
-                rigidBody.AddForce(new Vector2(50000, 0));
+                rigidBody.velocity = new Vector2(-500, 500);
+                //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
 
             else if (collision.transform.position.x < transform.position.x)
             {
-                rigidBody.AddForce(new Vector2(-50000, 0));
+                rigidBody.velocity = new Vector2(500, 500);
+                //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
+            
+            
+            
         }
         //hope this bounces each other off
 

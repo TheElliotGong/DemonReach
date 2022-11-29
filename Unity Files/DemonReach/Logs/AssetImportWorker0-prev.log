@@ -15,11 +15,11 @@ C:/Users/ewcgo/source/repos/thetyper101/DemonReach/Unity Files/DemonReach
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53904
+62652
 Successfully changed project path to: C:/Users/ewcgo/source/repos/thetyper101/DemonReach/Unity Files/DemonReach
 C:/Users/ewcgo/source/repos/thetyper101/DemonReach/Unity Files/DemonReach
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 181.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,143 +35,143 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006596 seconds.
+Registered in 0.005162 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.621 seconds
+- Completed reload, in  4.453 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4622ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (4453ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (494ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (164ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (204ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017856 seconds.
+Registered in 0.019256 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002124067F020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D106BCC020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241698050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D1095042E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD272030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD46C030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D106900A80 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2C1A20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D1096FD820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD3D6220 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D106BCC020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2C1A20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D10A77F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240E539C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D109FF69B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240C36230 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D10A7AE830 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2C1A20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D10A7AE830 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241B2D020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D109B0A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212404E6230 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D10A7AE830 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240C3E240 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2C1A20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001D10A7AE830 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240E539C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D109FF69B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2C9A30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D10A7B6840 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD198410 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D106CBB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240E539C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001D10A8FCA30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240E6C020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001D109DFE010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212414D7C20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D10988F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124110F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001D109E0FC20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212408F3020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D10A11D020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240C3E240 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124053C010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D109CAE010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240C91240 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D109975640 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD4FA530 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D10AD683E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124053C010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D109CAE010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124113CC20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D109F01620 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD24B010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D106A711C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212404F99F0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D109593E90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241B5B230 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D106B6BC20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240C3E240 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D109E3D830 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240AA7010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D109F01620 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
+- Completed reload, in  1.287 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1375ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1158ms)
-			LoadAssemblies (168ms)
+		EndReloadAssembly (1077ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (496ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -179,14 +179,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2116 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.6 MB.
 System memory in use after: 95.7 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2555.
-Total: 4.178200 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.050400 ms MarkObjects: 3.780100 ms  DeleteObjects: 0.100100 ms)
+Total: 4.182400 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.110400 ms MarkObjects: 3.618400 ms  DeleteObjects: 0.094100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -201,511 +201,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Instructions.unity
-  artifactKey: Guid(06801373c7c631a468a705ff010bb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Instructions.unity using Guid(06801373c7c631a468a705ff010bb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4249c19d54a4d5b48910a853383dfbe1') in 0.023731 seconds 
-  Import took 0.028991 seconds .
+  path: Assets/Fonts/thempo-new-st/Thempo New St.ttf
+  artifactKey: Guid(09d9deca721029f4bbfe268c5d87f285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/thempo-new-st/Thempo New St.ttf using Guid(09d9deca721029f4bbfe268c5d87f285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494b11ea52f562478e96d5ffb1156fe4') in 0.178614 seconds 
+  Import took 0.185610 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.148563 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(9fa723c6f3845ea4abaaa70dfb3e29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(9fa723c6f3845ea4abaaa70dfb3e29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f40bf84fce8843ef55a9380a9fdc4') in 0.006955 seconds 
-  Import took 0.012790 seconds .
+  Time since last request: 0.000445 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.025861 seconds 
+  Import took 0.031034 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009136 seconds.
+Registered in 0.015641 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002124426A020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D109CAE010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244996410 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D10E704DE0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240C3E240 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD145790 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D106CB71B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D10AC79020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240193E30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D10E0A03E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D10C8FC020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D10E0A03E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D10AC79020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240000080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D109CAE010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D10B493020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240801640 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D10B569C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001D10AC79020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241ACC030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D1068E0910 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411B6430 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D10B4A4430 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124067F020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001D10D6A4040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B42BF0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D10B35C840 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241EB2020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001D10E24A450 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240829020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D10A11D020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240027090 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D10B569C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241EB2020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D10E24A450 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD488C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D1099CD020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212404B5030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D1068FF010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240031790 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D10A77F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D10E0A03E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002125416C940 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D10E6EDFD0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213D48DCC10 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D109594060 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240027090 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD55F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D109B85020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  1.389 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1332ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1390ms)
+		BeginReloadAssembly (266ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1122ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (529ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (396ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.8 MB.
-System memory in use after: 93.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2558.
-Total: 5.459400 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.102800 ms MarkObjects: 4.963700 ms  DeleteObjects: 0.039400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022585 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021242714020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213D4846000 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124006EFA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AE54B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240193E30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD11F570 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212406BDE30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124006EFA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD11F570 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212406BDE30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242CFF010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244ADD7B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212406BDE30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410BB010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241C41020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244A7A020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240829020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124006EFA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244025020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124494FA20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241E9F420 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242D2B410 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244C6E030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4DF0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212406BDE30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124006EFA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.558 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1570ms)
-		BeginReloadAssembly (353ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (177ms)
-		EndReloadAssembly (1129ms)
-			LoadAssemblies (197ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (10ms)
 			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (424ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2561.
-Total: 5.085000 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.051600 ms MarkObjects: 4.477100 ms  DeleteObjects: 0.247800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1219.583772 seconds.
-  path: Assets/Scenes/Arena.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arena.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea159a79b4c250621785c3d4e428e2e7') in 0.019474 seconds 
-  Import took 0.023438 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005950 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000212410BB010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243A632D0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242E97FF0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240193E30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243AEA180 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240000080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243AEA180 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430D2030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244996060 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242714020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212403E3070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244CF2020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244039A30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241204830 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240031790 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2385F0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4DF0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1121ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (919ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (382ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2564.
-Total: 3.639000 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.096600 ms MarkObjects: 3.119500 ms  DeleteObjects: 0.060000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007786 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000212410BB010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212433D0080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244E27A90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240193E30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212449F0020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240187020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240000080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212449F0020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430D2030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244C661E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242714020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124028D070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244CF2020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244039A30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212433CF230 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242B2D030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240187020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241ECB050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4880 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.255 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1256ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1047ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (421ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (290ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (311ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 3.721200 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.060800 ms MarkObjects: 3.348200 ms  DeleteObjects: 0.029000 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 4.246800 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.098000 ms MarkObjects: 3.800500 ms  DeleteObjects: 0.027700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -721,583 +341,239 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007548 seconds.
+Registered in 0.014810 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021242714020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D10C720080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212407C1430 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D10ABF2B30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D10DF6AE50 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CBA90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D12F02CD70 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D10A5F0080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212406F42D0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D10D6E2020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430BA030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D10A5F0080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212434A5010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D10B0C5440 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D10A5F0080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240000080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D10DB3B040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D109C8A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D10B569C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001D10A5F0080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430D2030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D10C834040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244E26B80 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D10B473CA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001D10958C8A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242E23050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001D10B43F020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241C41020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D106A69010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD3C3010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001D10C996010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240829020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D10A11D020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D10B569C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244025020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D10C996010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD488C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D10C74E290 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244C6DE90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D1068FF010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212437AC030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D10DC3D130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212434A5010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D10A7A5220 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD461D60 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D10D122D90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4C20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D109593CC0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D10CD52640 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D10A5F0080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2605.
+Total: 4.191300 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.097200 ms MarkObjects: 3.765200 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013698 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D10C720080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10A7BF9C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D1096204A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109EE6020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10DF61020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109EE6020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10E3DA0B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109F06030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10DB3B040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109C8A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10B569C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109EE6020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10C75A030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10E156CC0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10AA73030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10B35C840 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10C996010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10A11D020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10B569C30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10CD52640 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10C74E290 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D1068FF010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10DC3D130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10B465230 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D12EF8FEB0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109594400 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D109F06030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  1.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (394ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2570.
-Total: 4.217000 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.131700 ms MarkObjects: 3.612100 ms  DeleteObjects: 0.086000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005967 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021242714020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212445A7870 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243E28060 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212406F42D0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244C64060 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243D20020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242E952C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242E23050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240D11020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD2B7010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124428A040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243ECB160 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242B2D030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212434A5010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241CC6030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4DF0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124133A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.180 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1180ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (987ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1321ms)
 			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (414ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (729ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (295ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 4.098900 ms (FindLiveObjects: 0.396000 ms CreateObjectMapping: 0.146200 ms MarkObjects: 3.475900 ms  DeleteObjects: 0.077500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021249 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021242714020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241BB1EB0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244D0A090 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242B61020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243FC8050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212404EC040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242B61020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212453EA010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241DB8080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212449F0070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242E23050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124028D070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021245216010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244025020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124428A040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243EC8D20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241479010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212404EC040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242F37050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4DF0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242B61020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.203 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1204ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1026ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2576.
-Total: 3.709000 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.149300 ms MarkObjects: 3.143800 ms  DeleteObjects: 0.025100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 518.094079 seconds.
-  path: Assets/Scripts/GameObject Scripts
-  artifactKey: Guid(63035707ab93aed46b92d2058f740206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameObject Scripts using Guid(63035707ab93aed46b92d2058f740206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eb02c03c930c185c5267b40519e59b') in 0.012832 seconds 
-  Import took 0.016985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.407963 seconds.
-  path: Assets/Scripts/GameObject Scripts/HyperLink.cs
-  artifactKey: Guid(fb83cbf0747bc80409ba7ace7fa58d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameObject Scripts/HyperLink.cs using Guid(fb83cbf0747bc80409ba7ace7fa58d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0546cb540c350d172334ed55d06da3f') in 0.051343 seconds 
-  Import took 0.055651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.366247 seconds.
-  path: Assets/Scripts/GameObject Scripts/Player.cs
-  artifactKey: Guid(3305da4b3bb2a524aa15ebf24b5a07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameObject Scripts/Player.cs using Guid(3305da4b3bb2a524aa15ebf24b5a07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c40e46dd991245b04a4f42d639cc1e1') in 0.004663 seconds 
-  Import took 0.008289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003378 seconds.
-  path: Assets/Scripts/GameObject Scripts/Player.cs
-  artifactKey: Guid(3305da4b3bb2a524aa15ebf24b5a07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameObject Scripts/Player.cs using Guid(3305da4b3bb2a524aa15ebf24b5a07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c40e46dd991245b04a4f42d639cc1e1') in 0.005081 seconds 
-  Import took 0.008403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 288.623083 seconds.
-  path: Assets/RigidBody Materials/New Physics Material 2D.physicsMaterial2D
-  artifactKey: Guid(8e4f49b44dd728f4a91e6fc5f2678618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RigidBody Materials/New Physics Material 2D.physicsMaterial2D using Guid(8e4f49b44dd728f4a91e6fc5f2678618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729fc6cd2651b166019eba12d5f6705d') in 0.024103 seconds 
-  Import took 0.028612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.076854 seconds.
-  path: Assets/Images/dude.jpg
-  artifactKey: Guid(26d36a90c94681941b65469848f1ca56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/dude.jpg using Guid(26d36a90c94681941b65469848f1ca56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb58068a319c4c2bf27f3a1a3d65fa8f') in 0.305095 seconds 
-  Import took 0.309726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Images/weirdGuy.jpg
-  artifactKey: Guid(79aff7aeb3d23c64b8eb60992de05e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/weirdGuy.jpg using Guid(79aff7aeb3d23c64b8eb60992de05e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962e87a504520bab46b904f7d0855735') in 0.025841 seconds 
-  Import took 0.030132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Images/test.jpg
-  artifactKey: Guid(de9d5113b08cef545951e80def025267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/test.jpg using Guid(de9d5113b08cef545951e80def025267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f48ef4ddc3527b0b9c714ff9a787670') in 0.025302 seconds 
-  Import took 0.029735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Images/guy.png
-  artifactKey: Guid(7e982acbe4c1019439f6f2a95b464e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/guy.png using Guid(7e982acbe4c1019439f6f2a95b464e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccfd67964dcc150c13369dfdc6cc0b0') in 0.020265 seconds 
-  Import took 0.025282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Images/person.jpg
-  artifactKey: Guid(5bbb1beaddca97f42b9337db4e798077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/person.jpg using Guid(5bbb1beaddca97f42b9337db4e798077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693ff860505b3ba23af346ec2ac48456') in 0.018220 seconds 
-  Import took 0.022089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Images/test_background.jpg
-  artifactKey: Guid(7fb6dbefccf298340aed3dabb096acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/test_background.jpg using Guid(7fb6dbefccf298340aed3dabb096acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf9ae5202a5cf0e161e2fb74d3b3a77') in 0.036124 seconds 
-  Import took 0.041142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002706 seconds.
-  path: Assets/Images/test_background.jpg
-  artifactKey: Guid(7fb6dbefccf298340aed3dabb096acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/test_background.jpg using Guid(7fb6dbefccf298340aed3dabb096acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf9ae5202a5cf0e161e2fb74d3b3a77') in 0.020246 seconds 
-  Import took 0.024471 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013234 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021242E23050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212401D91C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244E294B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212449F0020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FBC700B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212451C4030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242EAB160 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212449F0020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241DB0070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FBC33ED0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FBBFA470 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244D520E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212407BD020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021245216010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FBC19F20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243ECD5A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213D4872FC0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242EAB160 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240AE8070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4C20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212449F0020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (391ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.9 MB.
-System memory in use after: 97.0 MB.
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 3.507700 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.049700 ms MarkObjects: 3.194000 ms  DeleteObjects: 0.023500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2608.
+Total: 3.296900 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.985500 ms  DeleteObjects: 0.026400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1311,489 +587,237 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 476.485061 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fa723c6f3845ea4abaaa70dfb3e29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fa723c6f3845ea4abaaa70dfb3e29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b3dd4059474d7f8cb61f278d31ea10') in 0.015298 seconds 
+  Import took 0.019022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.397136 seconds.
+  path: Assets/Scenes/Victory.unity
+  artifactKey: Guid(1d5864c9028b51a489c676ca8a4f627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Victory.unity using Guid(1d5864c9028b51a489c676ca8a4f627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bb911786eeafc9de404ee685a81843') in 0.007045 seconds 
+  Import took 0.011686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.844835 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fa723c6f3845ea4abaaa70dfb3e29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fa723c6f3845ea4abaaa70dfb3e29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cbeea704e89d4d898ab01305e04336') in 0.004902 seconds 
+  Import took 0.008465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.650231 seconds.
+  path: Assets/Scenes/Victory.unity
+  artifactKey: Guid(1d5864c9028b51a489c676ca8a4f627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Victory.unity using Guid(1d5864c9028b51a489c676ca8a4f627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be80300fca461256359a9791431b51e') in 0.004129 seconds 
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.350050 seconds.
+  path: Assets/Images/UI/button.png
+  artifactKey: Guid(562d62bae10962a43b675912a2d6580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/button.png using Guid(562d62bae10962a43b675912a2d6580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d6f78bbfcd5ef4f1de4927effdd760') in 0.129610 seconds 
+  Import took 0.133408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.462617 seconds.
+  path: Assets/Images/UI/circle.png
+  artifactKey: Guid(a2c36ba274f4dde4b9e530467a70c9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/circle.png using Guid(a2c36ba274f4dde4b9e530467a70c9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261eda3ebc3fa4d4ea9d22aa59a60e80') in 0.024269 seconds 
+  Import took 0.027759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003806 seconds.
+  path: Assets/Images/UI/circle.png
+  artifactKey: Guid(a2c36ba274f4dde4b9e530467a70c9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/circle.png using Guid(a2c36ba274f4dde4b9e530467a70c9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261eda3ebc3fa4d4ea9d22aa59a60e80') in 0.019231 seconds 
+  Import took 0.023009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Images/UI/Instructions/clicking_cursor.png
+  artifactKey: Guid(e37f27442fe84ad40a346e90d0e655d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/Instructions/clicking_cursor.png using Guid(e37f27442fe84ad40a346e90d0e655d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe26479f2aa89990459fb9bbdfe377') in 0.019851 seconds 
+  Import took 0.023436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.252209 seconds.
+  path: Assets/Scenes/Credits.unity
+  artifactKey: Guid(943277b97f6d2ec4598aa55ebaee15c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Credits.unity using Guid(943277b97f6d2ec4598aa55ebaee15c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac70b42f950b5401f3fdb257e49ec653') in 0.004809 seconds 
+  Import took 0.008611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1645.623675 seconds.
+  path: Assets/Scenes/Victory.unity
+  artifactKey: Guid(1d5864c9028b51a489c676ca8a4f627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Victory.unity using Guid(1d5864c9028b51a489c676ca8a4f627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f636462951373372798cf5bbba51cbf8') in 0.043379 seconds 
+  Import took 0.112301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.546979 seconds.
+  path: Assets/Scenes/Credits.unity
+  artifactKey: Guid(943277b97f6d2ec4598aa55ebaee15c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Credits.unity using Guid(943277b97f6d2ec4598aa55ebaee15c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad2383ff1282b81fe17e42e4be0bfde') in 0.006777 seconds 
+  Import took 0.012027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2510.577561 seconds.
+  path: Assets/Scenes/Instructions.unity
+  artifactKey: Guid(06801373c7c631a468a705ff010bb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Instructions.unity using Guid(06801373c7c631a468a705ff010bb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f329676505b989ff42220aa7d03fe50') in 0.295430 seconds 
+  Import took 0.674646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 975.301648 seconds.
+  path: Assets/Scenes/Instructions.unity
+  artifactKey: Guid(06801373c7c631a468a705ff010bb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Instructions.unity using Guid(06801373c7c631a468a705ff010bb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017966137a10149e60970e70a720124f') in 0.013067 seconds 
+  Import took 0.019782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.597016 seconds.
+  path: Assets/Scenes/Arena.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arena.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a5bad2a129d5e3842b297318e3f18d') in 0.009959 seconds 
+  Import took 0.015745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001871 seconds.
+  path: Assets/Scenes/Arena.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arena.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a5bad2a129d5e3842b297318e3f18d') in 0.005422 seconds 
+  Import took 0.010919 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007038 seconds.
+Registered in 0.009915 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021242E23050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D10A77F010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212401D91C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D106C06490 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240874E40 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212445FAB10 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D10B0C61A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D10D57A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240193E30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D10DF61020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D109EE6020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D105C12590 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D10D57A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D10DB3B040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D10C972010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240874E40 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001D109EE6020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212445D1D90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D10C75A030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240026490 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D10E4F67F0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244D520E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001D10C720080 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124396E030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D10B35C840 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD3C3010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001D10C996010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D10A11D020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240874E40 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D10C996010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242D69020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D106882020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124464AFA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D1068FF010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D10C9D4030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D105C12590 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212437ED070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D10D978940 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4A50 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D1095945D0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D1068B3130 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D10A994820 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124176C4A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D10D57A010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1103ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (918ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (387ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.9 MB.
-System memory in use after: 97.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2594.
-Total: 3.960800 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.103900 ms MarkObjects: 3.474300 ms  DeleteObjects: 0.036700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008338 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021242E23050 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021254165620 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212451C4D90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240193E30 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242EAB160 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244639E60 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243FC96C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244D520E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242AB3020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021245216010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124428A040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124464B8B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242EAB160 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021241DBF0B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4A50 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
+- Completed reload, in  1.578 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1127ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1593ms)
+		BeginReloadAssembly (478ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (63ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (935ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (389ms)
+			CreateAndSetChildDomain (264ms)
+		EndReloadAssembly (1018ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (407ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (274ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (289ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.9 MB.
-System memory in use after: 97.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2597.
-Total: 3.741400 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.052300 ms MarkObjects: 3.423700 ms  DeleteObjects: 0.026300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006621 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021248101010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213D48012A0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212451C8EE0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021247F85020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FBC700C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212438A4040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021247F85020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212445D1D90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212452777C0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244D520E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244A30040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021245216010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242800020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212446427B0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021248057020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212426B6950 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4C20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021247F85020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1055ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.9 MB.
-System memory in use after: 97.1 MB.
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2600.
-Total: 3.743300 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.053000 ms MarkObjects: 3.415700 ms  DeleteObjects: 0.025200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007384 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021248101010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242F68BA0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242E47200 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021247D7C020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212451C4030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD464020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212411A5020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212430CA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212445D1D90 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212457EC070 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244D520E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242AB3020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021245216010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021243B2E1E0 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002124428A040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244647030 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021242858010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240FC2010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021240087C20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212416A4C20 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000213FD5B1010 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021244AFA040 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212410DB020 doesn't match image C:\Users\ewcgo\source\repos\thetyper101\DemonReach\Unity Files\DemonReach\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1108ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (374ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.9 MB.
-System memory in use after: 97.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2603.
-Total: 3.814900 ms (FindLiveObjects: 0.384300 ms CreateObjectMapping: 0.131700 ms MarkObjects: 3.271500 ms  DeleteObjects: 0.024600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 5.661400 ms (FindLiveObjects: 0.638300 ms CreateObjectMapping: 0.053400 ms MarkObjects: 4.938600 ms  DeleteObjects: 0.028900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
