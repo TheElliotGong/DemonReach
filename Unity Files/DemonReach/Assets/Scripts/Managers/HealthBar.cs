@@ -13,7 +13,7 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         healthBar = gameObject.GetComponent<Image>();
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        player = GameObject.Find("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame

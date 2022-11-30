@@ -12,9 +12,11 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject upgradeMenu;
-    [SerializeField] private GameObject pauseButton;
-    [SerializeField] private Text bossCounter;
     
+    
+    [SerializeField] private GameObject bossHolder;
+    private Transform[] bosses;
+    [SerializeField] private Text bossCounter;
     public int bossNum;
     public int maxScore;
     public int highScore;
@@ -22,16 +24,28 @@ public class UIManager : MonoBehaviour
 
     private WeaponControls weapon;
 
-    [SerializeField] private GameObject[] potions;
-    [SerializeField] private Sprite[] potionImages;
+
+    
     void Start()
     {
         Time.timeScale = 1f;
 
         bossNum = 1;
-        weapon = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<WeaponControls>();
-        weapon.pauseMenu = pauseMenu;
-        weapon.upgradeMenu = upgradeMenu;
+        bosses = bossHolder.GetComponentsInChildren<Transform>();
+        for(int i = 0; i < bosses.Length; i++)
+        {
+            if(bossNum - 1 == i)
+            {
+                bosses[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                bosses[i].gameObject.SetActive(false);
+            }
+        }
+
+        weapon = GameObject.Find("Player").GetComponentInChildren<WeaponControls>();
+
         pauseMenu.SetActive(false);
         upgradeMenu.SetActive(false);
     }

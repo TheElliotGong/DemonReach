@@ -10,8 +10,7 @@ public class WeaponControls : MonoBehaviour
     private Vector3 mousePos;
     private Player playerScript;
 
-    public GameObject pauseMenu;
-    public GameObject upgradeMenu;
+
     public GameObject projectile;
     public Transform projectileHolder;
     public Transform projectileTransform;
@@ -29,15 +28,14 @@ public class WeaponControls : MonoBehaviour
     }
     private void Update()
     {
-        if(pauseMenu.activeSelf == false || upgradeMenu.activeSelf == false)
-        {
-            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         
-            Vector3 rotation = mousePos - transform.position;
-            float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, degree);
-            Fire();
-        }
+        Vector3 rotation = mousePos - transform.position;
+        float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, degree);
+        Fire();
+
         
     }
 
