@@ -12,11 +12,15 @@ public class LycanMovement : MonoBehaviour
     [SerializeField] public GameObject player;
     [SerializeField] public Player playerScript;
     [SerializeField] public float gravitationalAcceleration;
+    [SerializeField] public List<GameObject> jumpTriggers;
+    [SerializeField] private Rigidbody2D rigidBody;
+
     // Start is called before the first frame update
     void Start()
     {
         health = 300;
         velocity = new Vector2(speed, 0);
+        rigidBody = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -33,6 +37,20 @@ public class LycanMovement : MonoBehaviour
             velocity = new Vector2(-speed, 0);
         }
 
+        //now if im on a platform it should head torwards the closest platform
+        if(player.transform.position.y > -13.5)
+        {
+            for (int i = 0; i < jumpTriggers.Count; i++)
+            {
+                //do i have to make x = 380 as precondition for it to be on the floor?
+                if (jumpTriggers[i].transform.position.x == 380)
+                {
+                    Debug.Log("this actually works");
+
+                }
+            }
+        }
+       
         lycan.transform.Translate(velocity * Time.deltaTime);
     }
 
@@ -56,8 +74,7 @@ public class LycanMovement : MonoBehaviour
         //now i need to figure out when the player on the platform
         if(player.transform.position.y > -13.5)
         {
-            //need to add jump force
-            velocity = new Vector2(speed, 400);
+            
         }
     }
 }
