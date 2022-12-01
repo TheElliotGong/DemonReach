@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Lycant : MonoBehaviour
 {
-    private int health;
+    public float maxHealth;
+    public float health;
     [SerializeField] public float speed;
     private Vector2 velocity;
     private bool onGround;
-    [SerializeField] public GameObject lycan;
+
     [SerializeField] public GameObject player;
     [SerializeField] public Player playerScript;
     [SerializeField] public float gravitationalAcceleration;
@@ -19,20 +20,22 @@ public class Lycant : MonoBehaviour
     void Start()
     {
         health = 300;
+        maxHealth = health;
         velocity = new Vector2(speed, 0);
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         //horizontal movement (quite simple for now, will implement jumping next)
-        if(player.transform.position.x > lycan.transform.position.x)
+        if(player.transform.position.x > transform.position.x)
         {
             velocity = new Vector2(speed, 0);
         }
 
-        else if(player.transform.position.x < lycan.transform.position.x)
+        else if(player.transform.position.x < transform.position.x)
         {
             velocity = new Vector2(-speed, 0);
         }

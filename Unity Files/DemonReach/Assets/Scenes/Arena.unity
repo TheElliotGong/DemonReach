@@ -1313,8 +1313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3067cad675034f4a99d63b849c6b0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  health: 0
   speed: 150
-  lycan: {fileID: 1205729564}
   player: {fileID: 1162225836}
   playerScript: {fileID: 0}
   gravitationalAcceleration: 10
@@ -1354,8 +1355,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304691935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -558, y: -316, z: 0}
-  m_LocalScale: {x: 120, y: 120, z: 0}
+  m_LocalPosition: {x: -558, y: -299.82, z: 0}
+  m_LocalScale: {x: 180, y: 150, z: 0}
   m_Children:
   - {fileID: 1205729568}
   m_Father: {fileID: 891082486}
@@ -2291,6 +2292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37b737e162fb954e91753af189eb51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayer: 1
 --- !u!1 &539058483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,6 +2818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37b737e162fb954e91753af189eb51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayer: 0
 --- !u!114 &788907499
 MonoBehaviour:
   m_ObjectHideFlags: 0
