@@ -11,27 +11,36 @@ public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private GameObject upgradeMenu;
-    
-    
-    [SerializeField] private GameObject bossHolder;
+    private GameObject upgradeMenu;
+    private GameObject defeatScreen;    
+    private GameObject bossHolder;
+
     private Transform[] bosses;
-    [SerializeField] private Text bossCounter;
-    public int bossNum;
+    private Text bossCounter;
+    private Player player;
+
+    public int bossNum = 1;
     public int maxScore;
     public int highScore;
     public int levelNum;
 
-    private WeaponControls weapon;
+    
 
 
     
     void Start()
     {
         Time.timeScale = 1f;
-
-        bossNum = 1;
+        pauseMenu = GameObject.Find("Pause_UI");
+        upgradeMenu = GameObject.Find("Upgrades");
+        defeatScreen = GameObject.Find("Defeat");
+        player = GameObject.Find("Player").GetComponent<Player>();
+        bossHolder = GameObject.Find("Bosses");
         bosses = bossHolder.GetComponentsInChildren<Transform>();
+       
+        bossCounter = GameObject.Find("Boss_Counter").GetComponent<Text>();
+        
+        /*
         for(int i = 0; i < bosses.Length; i++)
         {
             if(bossNum - 1 == i)
@@ -43,17 +52,19 @@ public class UIManager : MonoBehaviour
                 bosses[i].gameObject.SetActive(false);
             }
         }
-
-        weapon = GameObject.Find("Player").GetComponentInChildren<WeaponControls>();
+        */
+        
 
         pauseMenu.SetActive(false);
         upgradeMenu.SetActive(false);
+        defeatScreen.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         //for now it's just for level one i'll update it to accomodate more levels once i know it works
+        CheckDeath();
     }
     public void NextBoss()
     {
@@ -71,7 +82,15 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-
+    public void CheckDeath()
+    {
+        if (player.hp <= 0)
+        {
+            defeatScreen.SetActive(true);
+            Time.timeScale = 0f;
+        }
+            
+    }
 
     public void LoadScene(string name)
     {

@@ -8,18 +8,25 @@ public class Player : MonoBehaviour
 
 
     public float speed;
+    
     public float hp;
     public float maxHP;
-    public float jumpForce;
     public float bulletSpeed;
     public float bulletDmg;
+    public float jumpForce;
+    public float originalGravity;
+    public float fallGravity;
+    public float fallSpeed;
+    public float maxFallSpeed;
 
     private float knockBackTimer;
     private float horizontal;
     private bool facingRight;
     private bool grounded;
-    [SerializeField] private Rigidbody2D rigidBody;
-    [SerializeField] private CapsuleCollider2D groundCheck;
+    private bool isJumping;
+
+    private Rigidbody2D rigidBody;
+    private CapsuleCollider2D groundCheck;
     [SerializeField] private LayerMask platformLayer;
 
     /// <summary>
@@ -35,6 +42,7 @@ public class Player : MonoBehaviour
         facingRight = true;
         grounded = true;
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
+        groundCheck = gameObject.GetComponentInChildren<CapsuleCollider2D>();
     }
 
     // Update is called once per frame
@@ -42,12 +50,34 @@ public class Player : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         grounded = groundCheck.IsTouchingLayers(platformLayer);
+        if(grounded)
+        {
+            rigidBody.gravityScale = originalGravity;
+        }
         if (Input.GetKeyDown(KeyCode.W) && grounded)
         {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
 
+            rigidBody.AddForce(Vector2.up * jumpForce);
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 800);
+            isJumping = true;
+            
         }
+        Falling();
         Flip();
+    }
+
+    private void Falling()
+    {
+        if(rigidBody.velocity.y <= 0 && !grounded)
+        {
+            isJumping = false;
+            rigidBody.gravityScale = fallGravity;
+        }
+        if(rigidBody.velocity.y < -1000.0f)
+        {
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, -1000.0f);
+        }
+
     }
     private void FixedUpdate()
     {
@@ -69,13 +99,16 @@ public class Player : MonoBehaviour
             playerSprite.localScale = localScale;
         }
     }
-
+    private void CheckCollision()
+    {
+        
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //code in knock back here
         if (collision.gameObject.tag == "Enemy")
         {
-            hp -= 2;
+            hp -= 7.5f;
             Debug.Log("player hit");
             //knockback
             /*
