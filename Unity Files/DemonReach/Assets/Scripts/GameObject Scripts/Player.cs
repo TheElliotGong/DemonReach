@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
         {
 
             rigidBody.AddForce(Vector2.up * jumpForce);
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 800);
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 1100);
             isJumping = true;
             
         }
