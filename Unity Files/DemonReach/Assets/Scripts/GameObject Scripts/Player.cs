@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
 
+   
 
     public float speed;
     
@@ -20,11 +21,11 @@ public class Player : MonoBehaviour
     public float maxFallSpeed;
 
     private float knockBackTimer;
-    private float horizontal;
+    public float horizontal;
     private bool facingRight;
     private bool grounded;
     private bool isJumping;
-
+    private Animator animator;
     private Rigidbody2D rigidBody;
     private CapsuleCollider2D groundCheck;
     [SerializeField] private LayerMask platformLayer;
@@ -43,6 +44,9 @@ public class Player : MonoBehaviour
         grounded = true;
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         groundCheck = gameObject.GetComponentInChildren<CapsuleCollider2D>();
+        animator = gameObject.GetComponentInChildren<Animator>();
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetBool("isGrounded", grounded);
     }
 
     // Update is called once per frame
@@ -50,9 +54,12 @@ public class Player : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         grounded = groundCheck.IsTouchingLayers(platformLayer);
-        if(grounded)
+        animator.SetBool("isGrounded", grounded);
+
+        if (grounded)
         {
             rigidBody.gravityScale = originalGravity;
+            
         }
         if (Input.GetKeyDown(KeyCode.W) && grounded)
         {
@@ -98,6 +105,7 @@ public class Player : MonoBehaviour
             localScale.x *= -1.0f;
             playerSprite.localScale = localScale;
         }
+        animator.SetFloat("Horizontal", horizontal);
     }
     private void CheckCollision()
     {
