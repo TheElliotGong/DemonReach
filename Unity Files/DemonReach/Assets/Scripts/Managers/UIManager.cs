@@ -15,7 +15,8 @@ public class UIManager : MonoBehaviour
     private GameObject defeatScreen;    
     private GameObject bossHolder;
 
-    private Transform[] bosses;
+    private GameObject currentBoss;
+
     private Text bossCounter;
     private Player player;
 
@@ -24,6 +25,7 @@ public class UIManager : MonoBehaviour
     public int highScore;
     public int levelNum;
 
+    public List<GameObject> bosses;
     
 
 
@@ -32,12 +34,12 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         pauseMenu = GameObject.Find("Pause_UI");
-        upgradeMenu = GameObject.Find("Upgrades");
+        //upgradeMenu = GameObject.Find("Upgrades");
         defeatScreen = GameObject.Find("Defeat");
         player = GameObject.Find("Player").GetComponent<Player>();
-        bossHolder = GameObject.Find("Bosses");
-        bosses = bossHolder.GetComponentsInChildren<Transform>();
-       
+        //bossHolder = GameObject.Find("Bosses");
+        currentBoss = bosses[0];
+        
         bossCounter = GameObject.Find("Boss_Counter").GetComponent<Text>();
         
         /*
@@ -56,7 +58,7 @@ public class UIManager : MonoBehaviour
         
 
         pauseMenu.SetActive(false);
-        upgradeMenu.SetActive(false);
+        //upgradeMenu.SetActive(false);
         defeatScreen.SetActive(false);
     }
 
@@ -65,6 +67,7 @@ public class UIManager : MonoBehaviour
     {
         //for now it's just for level one i'll update it to accomodate more levels once i know it works
         CheckDeath();
+        
     }
     public void NextBoss()
     {

@@ -12,11 +12,15 @@ public class Upgrade : MonoBehaviour
     private Image image;
     public Text upgradeName;
     private Player player;
+    private UIManager ui;
+    private GameObject upgradeMenu;
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        player = GameObject.Find("Player").GetComponent<Player>();
+        ui = GameObject.Find("hud").GetComponent<UIManager>();
         //Load proper image based on upgrade type.
         image = gameObject.GetComponent<Image>();
+        upgradeMenu = GameObject.Find("Upgrades");
         switch(type)
         {
             case 1:
@@ -62,5 +66,8 @@ public class Upgrade : MonoBehaviour
                 player.bulletDmg *= 1.25f;
                 break;
         }
+        upgradeMenu.SetActive(false);
+        Time.timeScale = 1.0f;
+        ui.NextBoss();
     }
 }

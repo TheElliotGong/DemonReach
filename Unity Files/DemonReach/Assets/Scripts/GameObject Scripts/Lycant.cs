@@ -15,7 +15,7 @@ public class Lycant : MonoBehaviour
     [SerializeField] public float gravitationalAcceleration;
     [SerializeField] public List<GameObject> jumpTriggers;
     [SerializeField] private Rigidbody2D rigidBody;
-
+    private GameObject upgradeMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,7 @@ public class Lycant : MonoBehaviour
         maxHealth = health;
         velocity = new Vector2(speed, 0);
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
+        upgradeMenu = GameObject.Find("Upgrades");
 
     }
 
@@ -68,16 +69,11 @@ public class Lycant : MonoBehaviour
 
         if(health <= 0)
         {
+            upgradeMenu.SetActive(true);
+            Time.timeScale = 0.0f;
             Destroy(gameObject);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //now i need to figure out when the player on the platform
-        if(player.transform.position.y > -43)
-        {
-            
-        }
-    }
+
 }

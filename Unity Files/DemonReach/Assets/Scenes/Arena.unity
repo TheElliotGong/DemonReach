@@ -3123,6 +3123,8 @@ MonoBehaviour:
   maxScore: 0
   highScore: 0
   levelNum: 0
+  bosses:
+  - {fileID: 304691935}
 --- !u!1 &891082485
 GameObject:
   m_ObjectHideFlags: 0
@@ -3929,6 +3931,7 @@ MonoBehaviour:
   fallGravity: 400
   fallSpeed: 0
   maxFallSpeed: 0
+  horizontal: 0
   platformLayer:
     serializedVersion: 2
     m_Bits: 8
