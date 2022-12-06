@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         pauseMenu = GameObject.Find("Pause_UI");
-        //upgradeMenu = GameObject.Find("Upgrades");
+        upgradeMenu = GameObject.Find("Upgrades");
         defeatScreen = GameObject.Find("Defeat");
         player = GameObject.Find("Player").GetComponent<Player>();
         //bossHolder = GameObject.Find("Bosses");
@@ -58,7 +58,7 @@ public class UIManager : MonoBehaviour
         
 
         pauseMenu.SetActive(false);
-        //upgradeMenu.SetActive(false);
+        upgradeMenu.SetActive(false);
         defeatScreen.SetActive(false);
     }
 

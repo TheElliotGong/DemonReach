@@ -7,32 +7,14 @@ using UnityEngine.UI;
 public class UpgradeManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public enum UpgradeType { moreHealth, moveSpeed, bulletSpeed, bulletDmg };
-    private UpgradeType upgradeType;
-    private bool active;
-    
     public List<Upgrade> upgrades;
 
 
-    void Start()
-    {
-        active = true;
-        RandomizeUpgrades();
-        active = false;
-    }
 
     // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        if(active == true)
-        {
-            RandomizeUpgrades();
-            active = false;
-        }
-    }
-    public void SetActive(bool value)
-    {
-        active = value;
+        RandomizeUpgrades();
     }
 
     public void RandomizeUpgrades()

@@ -15,7 +15,7 @@ public class Lycant : MonoBehaviour
     [SerializeField] public float gravitationalAcceleration;
     [SerializeField] public List<GameObject> jumpTriggers;
     [SerializeField] private Rigidbody2D rigidBody;
-    private GameObject upgradeMenu;
+    public GameObject upgradeMenu;
     // Start is called before the first frame update
     void Start()
     {

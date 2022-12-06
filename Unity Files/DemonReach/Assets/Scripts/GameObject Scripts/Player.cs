@@ -52,25 +52,29 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        grounded = groundCheck.IsTouchingLayers(platformLayer);
-        animator.SetBool("isGrounded", grounded);
-
-        if (grounded)
+        if(Time.timeScale > 0)
         {
-            rigidBody.gravityScale = originalGravity;
-            
-        }
-        if (Input.GetKeyDown(KeyCode.W) && grounded)
-        {
+            horizontal = Input.GetAxisRaw("Horizontal");
+            grounded = groundCheck.IsTouchingLayers(platformLayer);
+            animator.SetBool("isGrounded", grounded);
 
-            rigidBody.AddForce(Vector2.up * jumpForce);
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 1100);
-            isJumping = true;
+            if (grounded)
+            {
+                rigidBody.gravityScale = originalGravity;
             
+            }
+            if (Input.GetKeyDown(KeyCode.W) && grounded)
+            {
+
+                rigidBody.AddForce(Vector2.up * jumpForce);
+                rigidBody.velocity = new Vector2(rigidBody.velocity.x, 1100);
+                isJumping = true;
+            
+            }
+            Falling();
+            Flip();
         }
-        Falling();
-        Flip();
+        
     }
 
     private void Falling()

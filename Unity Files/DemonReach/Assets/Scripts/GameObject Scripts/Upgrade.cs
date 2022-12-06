@@ -21,7 +21,12 @@ public class Upgrade : MonoBehaviour
         //Load proper image based on upgrade type.
         image = gameObject.GetComponent<Image>();
         upgradeMenu = GameObject.Find("Upgrades");
-        switch(type)
+        
+    }
+
+    public void SetType(int value)
+    {
+        switch(value)
         {
             case 1:
                 image.sprite = buttonImages[0];
