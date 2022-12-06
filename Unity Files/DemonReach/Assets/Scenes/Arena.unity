@@ -3000,10 +3000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 608eb9d60b6790d4bb251d2c8ad9395f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgrades:
-  - {fileID: 539058485}
-  - {fileID: 1007822077}
-  - {fileID: 277463003}
+  upgrades: []
 --- !u!1 &875408293
 GameObject:
   m_ObjectHideFlags: 0
