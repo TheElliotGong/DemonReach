@@ -39,18 +39,9 @@ public class Projectile : MonoBehaviour
     {
         if (collision.transform.tag == "Wall" || collision.transform.tag == "Enemy")
             Destroy(gameObject);
-        else if(collision.transform.tag == "Player")
-        {
-
-        }
-    }
-
-    
-
-    public void DealDamage()
-    {
 
     }
+
 
 
 }

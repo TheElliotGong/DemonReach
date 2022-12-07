@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Lycant : MonoBehaviour
 {
     public float maxHealth;
     public float health;
+    
     [SerializeField] public float speed;
     private Vector2 velocity;
     private bool onGround;
@@ -14,15 +15,16 @@ public class Lycant : MonoBehaviour
     [SerializeField] public Player playerScript;
     [SerializeField] public float gravitationalAcceleration;
     [SerializeField] public List<GameObject> jumpTriggers;
-    [SerializeField] private Rigidbody2D rigidBody;
+
     public GameObject upgradeMenu;
+    public Image hpBar;
     // Start is called before the first frame update
     void Start()
     {
         health = 300;
         maxHealth = health;
         velocity = new Vector2(speed, 0);
-        rigidBody = gameObject.GetComponent<Rigidbody2D>();
+
         upgradeMenu = GameObject.Find("Upgrades");
 
     }
@@ -62,19 +64,19 @@ public class Lycant : MonoBehaviour
     {
         if(collision.gameObject.transform.tag == "PlayerBlast")
         {
-            health = health - 20;
-            Debug.Log("hit");
-        }
+            health -= playerScript.bulletDmg;
+            hpBar.fillAmount = health / maxHealth;
+            if(health <= 0)
+            {
 
-
-        if(health <= 0)
-        {
-            
-            Time.timeScale = 0.0f;
-            upgradeMenu.SetActive(true);
-            
-            Destroy(gameObject);
+                hpBar.fillAmount = 0.0f;
+                upgradeMenu.SetActive(true);
+                Time.timeScale = 0.0f;
+                Destroy(gameObject);
+                
+            }
         }
+        
     }
 
 

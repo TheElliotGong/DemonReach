@@ -95,16 +95,6 @@ public class UIManager : MonoBehaviour
             
     }
 
-    public void LoadScene(string name)
-    {
-        Time.timeScale = 1f;
-        if(name == "Arena")
-        {
-
-        }
-         SceneManager.LoadScene(name);
-        
-    }
 
 
 }

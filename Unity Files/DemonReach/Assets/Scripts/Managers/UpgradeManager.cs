@@ -28,7 +28,7 @@ public class UpgradeManager : MonoBehaviour
         {
             do
             {
-                randomNum = Random.Range(1, 4);
+                randomNum = Random.Range(1, 5);
             } while (upgradeOptions.Contains(randomNum));
             upgradeOptions.Add(randomNum);
             upgrades[i].SetType(randomNum);

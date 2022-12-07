@@ -9,8 +9,8 @@ public class Upgrade : MonoBehaviour
     // Start is called before the first frame update
     public int type;
     public List<Sprite> buttonImages;
-    private Image image;
     public Text upgradeName;
+    private Image image;
     private Player player;
     private UIManager ui;
     private GameObject upgradeMenu;
@@ -18,7 +18,6 @@ public class Upgrade : MonoBehaviour
     {
         player = GameObject.Find("Player").GetComponent<Player>();
         ui = GameObject.Find("hud").GetComponent<UIManager>();
-        //Load proper image based on upgrade type.
         image = gameObject.GetComponent<Image>();
         upgradeMenu = GameObject.Find("Upgrades");
 

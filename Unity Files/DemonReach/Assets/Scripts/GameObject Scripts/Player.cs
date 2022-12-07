@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     public float fallGravity;
     public float fallSpeed;
     public float maxFallSpeed;
-
+    public Image hpBar;
 
     private float knockBackTimer;
     public float horizontal;
@@ -122,6 +122,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             hp -= 7.5f;
+            hpBar.fillAmount = hp / maxHP;
             Debug.Log("player hit");
             //knockback
             /*
@@ -140,13 +141,13 @@ public class Player : MonoBehaviour
             }*/
             if (collision.transform.position.x > transform.position.x)
             {
-                rigidBody.velocity = new Vector2(-600, 600);
+                rigidBody.velocity = new Vector2(-800, 800);
                 //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
 
             else if (collision.transform.position.x < transform.position.x)
             {
-                rigidBody.velocity = new Vector2(600, 600);
+                rigidBody.velocity = new Vector2(800, 800);
                 //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
 
@@ -157,6 +158,7 @@ public class Player : MonoBehaviour
 
         if (hp <= 0)
         {
+            hpBar.fillAmount = 0.0f;
             Destroy(gameObject);
         }
     }

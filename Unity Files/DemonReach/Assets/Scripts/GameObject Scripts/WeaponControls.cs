@@ -27,12 +27,16 @@ public class WeaponControls : MonoBehaviour
     private void Update()
     {
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        if(Time.timeScale > 0.5f)
+        {
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         
-        Vector3 rotation = mousePos - transform.position;
-        float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, degree);
-        Fire();
+            Vector3 rotation = mousePos - transform.position;
+            float degree = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, degree);
+            Fire();
+        }
+        
 
         
     }

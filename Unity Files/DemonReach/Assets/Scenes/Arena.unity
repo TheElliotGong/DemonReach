@@ -872,7 +872,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 277463005}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 277463003}
+        m_TargetAssemblyTypeName: Upgrade, Assembly-CSharp
+        m_MethodName: UpgradeStat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &277463005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1298,7 +1310,6 @@ GameObject:
   - component: {fileID: 304691939}
   - component: {fileID: 304691937}
   - component: {fileID: 304691936}
-  - component: {fileID: 304691940}
   m_Layer: 7
   m_Name: Lycan
   m_TagString: Enemy
@@ -1322,11 +1333,11 @@ MonoBehaviour:
   health: 0
   speed: 150
   player: {fileID: 1162225836}
-  playerScript: {fileID: 0}
+  playerScript: {fileID: 1162225841}
   gravitationalAcceleration: 10
   jumpTriggers: []
-  rigidBody: {fileID: 0}
   upgradeMenu: {fileID: 0}
+  hpBar: {fileID: 788907499}
 --- !u!61 &304691937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1419,22 +1430,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &304691940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304691935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b37b737e162fb954e91753af189eb51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthBar: {fileID: 788907499}
-  player: {fileID: 0}
-  lycant: {fileID: 304691936}
-  isPlayer: 0
 --- !u!1 &311732108
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,7 +2418,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 539058487}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 539058485}
+        m_TargetAssemblyTypeName: Upgrade, Assembly-CSharp
+        m_MethodName: UpgradeStat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &539058487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3575,7 +3582,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1007822079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1007822077}
+        m_TargetAssemblyTypeName: Upgrade, Assembly-CSharp
+        m_MethodName: UpgradeStat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1007822079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3844,7 +3863,6 @@ GameObject:
   - component: {fileID: 1162225840}
   - component: {fileID: 1162225839}
   - component: {fileID: 1162225841}
-  - component: {fileID: 1162225837}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3852,22 +3870,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1162225837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162225836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b37b737e162fb954e91753af189eb51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthBar: {fileID: 531924085}
-  player: {fileID: 1162225841}
-  lycant: {fileID: 0}
-  isPlayer: 1
 --- !u!4 &1162225838
 Transform:
   m_ObjectHideFlags: 0
@@ -3948,12 +3950,13 @@ MonoBehaviour:
   hp: 100
   maxHP: 100
   bulletSpeed: 1500
-  bulletDmg: 5
+  bulletDmg: 20
   jumpForce: 1500
   originalGravity: 200
   fallGravity: 400
   fallSpeed: 0
   maxFallSpeed: 0
+  hpBar: {fileID: 531924085}
   horizontal: 0
   platformLayer:
     serializedVersion: 2
