@@ -8,21 +8,29 @@ public class Upgrade : MonoBehaviour
 {
     // Start is called before the first frame update
     public int type;
-    public List<Sprite> buttonImages;
+    
     public Text upgradeName;
-    private Image image;
+    public Image image;
+    
+    //private UIManager ui;
+    
+    public List<Sprite> buttonImages;
     private Player player;
-    private UIManager ui;
     private GameObject upgradeMenu;
     void Start()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
-        ui = GameObject.Find("hud").GetComponent<UIManager>();
-        image = gameObject.GetComponent<Image>();
+        //ui = GameObject.Find("hud").GetComponent<UIManager>();
+
         upgradeMenu = GameObject.Find("Upgrades");
 
     }
 
+    public void SetUpgrade(string text, Sprite img)
+    {
+        upgradeName.text = text;
+        
+    }
     public void SetType(int value)
     {
         switch(value)
@@ -72,6 +80,6 @@ public class Upgrade : MonoBehaviour
         }
         upgradeMenu.SetActive(false);
         Time.timeScale = 1.0f;
-        ui.NextBoss();
+
     }
 }
