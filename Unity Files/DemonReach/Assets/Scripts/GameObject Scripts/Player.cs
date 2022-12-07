@@ -6,10 +6,10 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
 
-   
+
 
     public float speed;
-    
+
     public float hp;
     public float maxHP;
     public float bulletSpeed;
@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public float fallGravity;
     public float fallSpeed;
     public float maxFallSpeed;
+
 
     private float knockBackTimer;
     public float horizontal;
@@ -52,7 +53,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.timeScale > 0)
+        if (Time.timeScale > 0)
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             grounded = groundCheck.IsTouchingLayers(platformLayer);
@@ -61,7 +62,7 @@ public class Player : MonoBehaviour
             if (grounded)
             {
                 rigidBody.gravityScale = originalGravity;
-            
+
             }
             if (Input.GetKeyDown(KeyCode.W) && grounded)
             {
@@ -69,22 +70,22 @@ public class Player : MonoBehaviour
                 rigidBody.AddForce(Vector2.up * jumpForce);
                 rigidBody.velocity = new Vector2(rigidBody.velocity.x, 1100);
                 isJumping = true;
-            
+
             }
             Falling();
             Flip();
         }
-        
+
     }
 
     private void Falling()
     {
-        if(rigidBody.velocity.y <= 0 && !grounded)
+        if (rigidBody.velocity.y <= 0 && !grounded)
         {
             isJumping = false;
             rigidBody.gravityScale = fallGravity;
         }
-        if(rigidBody.velocity.y < -1000.0f)
+        if (rigidBody.velocity.y < -1000.0f)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, -1000.0f);
         }
@@ -102,7 +103,7 @@ public class Player : MonoBehaviour
         if (facingRight == true && horizontal < 0.0f || facingRight == false && horizontal > 0.0f)
         {
             facingRight = !facingRight;
-           
+
             //transform.localScale = localScale;
             Transform playerSprite = transform.Find("Player_Sprite");
             Vector3 localScale = playerSprite.localScale;
@@ -113,7 +114,7 @@ public class Player : MonoBehaviour
     }
     private void CheckCollision()
     {
-        
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -148,9 +149,9 @@ public class Player : MonoBehaviour
                 rigidBody.velocity = new Vector2(600, 600);
                 //collision.transform.Translate(new Vector3(-500, 0, 0), Space.World);
             }
-            
-            
-            
+
+
+
         }
         //hope this bounces each other off
 
@@ -159,6 +160,4 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    public bool Grounded { get { return grounded; } }
 }

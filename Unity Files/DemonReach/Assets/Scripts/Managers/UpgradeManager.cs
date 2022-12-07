@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using Random = UnityEngine.Random;
 
 public class UpgradeManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<Upgrade> upgrades;
 
-
-
     // Update is called once per frame
+    private void Start()
+    {
+        RandomizeUpgrades();
+    }
     private void OnEnable()
     {
         RandomizeUpgrades();
@@ -20,19 +23,15 @@ public class UpgradeManager : MonoBehaviour
     public void RandomizeUpgrades()
     {
         List<int> upgradeOptions = new List<int>();
+        int randomNum = 0;
         for(int i = 0; i < upgrades.Count; i++)
         {
-
-            int randomNum = Random.Range(1, 5);
-            while(!upgradeOptions.Contains(randomNum))
+            do
             {
-                randomNum = Random.Range(1, 5);
-            }
+                randomNum = Random.Range(1, 4);
+            } while (upgradeOptions.Contains(randomNum));
             upgradeOptions.Add(randomNum);
-            upgrades[i].type = randomNum;
+            upgrades[i].SetType(randomNum);
         }
-        
-        
-
     }
 }

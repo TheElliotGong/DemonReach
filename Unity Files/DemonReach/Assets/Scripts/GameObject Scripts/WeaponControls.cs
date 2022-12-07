@@ -23,8 +23,6 @@ public class WeaponControls : MonoBehaviour
     {
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         playerScript = GameObject.Find("Player").GetComponent<Player>();
-
-
     }
     private void Update()
     {

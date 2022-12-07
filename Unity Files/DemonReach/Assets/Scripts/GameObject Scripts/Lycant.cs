@@ -69,8 +69,10 @@ public class Lycant : MonoBehaviour
 
         if(health <= 0)
         {
-            upgradeMenu.SetActive(true);
+            
             Time.timeScale = 0.0f;
+            upgradeMenu.SetActive(true);
+            
             Destroy(gameObject);
         }
     }
