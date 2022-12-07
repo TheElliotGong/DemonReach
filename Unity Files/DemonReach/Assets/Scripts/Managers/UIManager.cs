@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
 
     private GameObject currentBoss;
 
-    private Text bossCounter;
+    //private Text bossCounter;
     private Player player;
 
     public int bossNum = 1;
@@ -40,7 +40,7 @@ public class UIManager : MonoBehaviour
         //bossHolder = GameObject.Find("Bosses");
         currentBoss = bosses[0];
         
-        bossCounter = GameObject.Find("Boss_Counter").GetComponent<Text>();
+        //bossCounter = GameObject.Find("Boss_Counter").GetComponent<Text>();
         
         /*
         for(int i = 0; i < bosses.Length; i++)
@@ -72,7 +72,7 @@ public class UIManager : MonoBehaviour
     public void NextBoss()
     {
         bossNum++;
-        bossCounter.text = "Boss " + bossNum;
+        //bossCounter.text = "Boss " + bossNum;
     }
     public void PauseGame()
     {
