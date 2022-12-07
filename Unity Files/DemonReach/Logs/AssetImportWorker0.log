@@ -1,17 +1,23 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 OS: 'Windows 10 Home; OS build 22000.1219; Version 2009; 64bit' Language: 'en' Physical Memory: 7541 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 =======
+=======
+>>>>>>> Stashed changes
 OS: 'Windows 10 Home Single Language; OS build 22000.1219; Version 2009; 64bit' Language: 'en' Physical Memory: 16221 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
 D:\Unity\2020.3.16f1\Editor\Unity.exe
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 -adb2
 -batchMode
@@ -19,6 +25,7 @@ D:\Unity\2020.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:/Users/ewcgo/source/repos/thetyper101/DemonReach/Unity Files/DemonReach
 -logFile
@@ -60,6 +67,8 @@ Domain Reload Profiling:
 	ReloadAssembly (4814ms)
 		BeginReloadAssembly (121ms)
 =======
+=======
+>>>>>>> Stashed changes
 D:/School/Uni/Fall2022/GDD2/DemonReach/Unity Files/DemonReach
 -logFile
 Logs/AssetImportWorker0.log
@@ -99,12 +108,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1892ms)
 		BeginReloadAssembly (55ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EndReloadAssembly (526ms)
 			LoadAssemblies (119ms)
@@ -123,6 +136,8 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 =======
+=======
+>>>>>>> Stashed changes
 		EndReloadAssembly (499ms)
 			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -139,11 +154,15 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.020265 seconds.
 Begin MonoManager ReloadAssembly
@@ -243,6 +262,8 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (8ms)
 =======
+=======
+>>>>>>> Stashed changes
 Registered in 0.002765 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -274,6 +295,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (284ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (2ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -281,6 +305,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
@@ -292,6 +317,8 @@ System memory in use after: 93.6 MB.
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2542.
 Total: 9.161800 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.048900 ms MarkObjects: 8.535900 ms  DeleteObjects: 0.332600 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -301,6 +328,9 @@ System memory in use after: 95.7 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2555.
 Total: 3.461200 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.981400 ms  DeleteObjects: 0.072600 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -311,7 +341,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -319,6 +352,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   path: Assets/Scripts/Managers
   artifactKey: Guid(3772890d364d11d4eb244f50d492452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -342,6 +376,8 @@ Start importing Assets/Scripts/GameObject Scripts/Upgrade.cs using Guid(b6144615
   Import took 0.009663 seconds .
 
 =======
+=======
+>>>>>>> Stashed changes
   path: Assets/Scripts
   artifactKey: Guid(1161437f9f77ce749b9b0d9f7a5a5ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts using Guid(1161437f9f77ce749b9b0d9f7a5a5ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6810b76abde278c18f8d84749cb5ab1') in 0.021946 seconds 
@@ -485,5 +521,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
