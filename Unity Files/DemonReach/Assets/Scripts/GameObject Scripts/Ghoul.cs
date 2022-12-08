@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Lycant : MonoBehaviour
+
+public class Ghoul : MonoBehaviour
 {
     public float maxHealth;
     public float health;
-    
+
     [SerializeField] public float speed;
     private Vector2 velocity;
     private bool onGround;
@@ -32,39 +33,37 @@ public class Lycant : MonoBehaviour
     void FixedUpdate()
     {
         //horizontal movement (quite simple for now, will implement jumping next)
-        if(player.transform.position.x > transform.position.x)
+        if (player.transform.position.x > transform.position.x)
         {
             velocity = new Vector2(speed, 0);
         }
 
-        else if(player.transform.position.x < transform.position.x)
+        else if (player.transform.position.x < transform.position.x)
         {
             velocity = new Vector2(-speed, 0);
         }
 
-        //no need to code in jump mechanics cause first boss
-       
+        //need to code in the dash
+
         transform.Translate(velocity * Time.deltaTime);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.transform.tag == "PlayerBlast")
+        if (collision.gameObject.transform.tag == "PlayerBlast")
         {
             health -= playerScript.bulletDmg;
             hpBar.fillAmount = health / maxHealth;
-            if(health <= 0)
+            if (health <= 0)
             {
 
                 hpBar.fillAmount = 0.0f;
                 upgradeMenu.SetActive(true);
                 Time.timeScale = 0.0f;
                 Destroy(gameObject);
-                
+
             }
         }
-        
+
     }
-
-
 }
