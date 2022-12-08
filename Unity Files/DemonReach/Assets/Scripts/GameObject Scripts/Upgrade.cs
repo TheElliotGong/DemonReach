@@ -11,8 +11,8 @@ public class Upgrade : MonoBehaviour
     
     public Text upgradeName;
     public Image image;
-    
-    //private UIManager ui;
+    public GameObject chosenUpgrades;
+    public GameObject upgradeIcon;
     
     public List<Sprite> buttonImages;
     private Player player;
@@ -59,27 +59,37 @@ public class Upgrade : MonoBehaviour
     // Update is called once per frame
     public void UpgradeStat()
     {
+        GameObject upgrade = Instantiate(upgradeIcon);
         switch(type)
         {
             //Extra hp
             case 1:
                 player.hp *= 1.25f;
+                upgrade.GetComponent<Image>().sprite = buttonImages[0];
                 break;
             //Extra speed
             case 2:
                 player.speed *= 1.25f;
+                upgrade.GetComponent<Image>().sprite = buttonImages[1];
                 break;
             //Extra bullet speed
             case 3:
                 player.bulletSpeed *= 1.25f;
+                upgrade.GetComponent<Image>().sprite = buttonImages[2];
                 break;
             //Extra bullet dmg
             case 4:
                 player.bulletDmg *= 1.25f;
+                upgrade.GetComponent<Image>().sprite = buttonImages[3];
                 break;
         }
+        upgrade.transform.parent = chosenUpgrades.transform;
         upgradeMenu.SetActive(false);
         Time.timeScale = 1.0f;
 
+       
+
     }
+
+
 }
