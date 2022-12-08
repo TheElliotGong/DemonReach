@@ -14,7 +14,6 @@ public class Lycant : MonoBehaviour
     [SerializeField] public GameObject player;
     [SerializeField] public Player playerScript;
     [SerializeField] public float gravitationalAcceleration;
-    [SerializeField] public List<GameObject> jumpTriggers;
 
     public GameObject upgradeMenu;
     public Image hpBar;
