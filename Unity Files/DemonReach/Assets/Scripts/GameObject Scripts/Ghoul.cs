@@ -43,7 +43,15 @@ public class Ghoul : MonoBehaviour
             velocity = new Vector2(-speed, 0);
         }
 
-        //need to code in the dash
+        if(player.transform.position.x - transform.position.x >= -400 || player.transform.position.x - transform.position.x <= 400)
+        {
+            velocity.x = speed * 1.5f;
+        }
+
+        else
+        {
+            velocity.x = speed;
+        }
 
         transform.Translate(velocity * Time.deltaTime);
     }

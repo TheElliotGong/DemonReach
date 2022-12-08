@@ -1338,7 +1338,6 @@ MonoBehaviour:
   player: {fileID: 1162225836}
   playerScript: {fileID: 1162225841}
   gravitationalAcceleration: 10
-  jumpTriggers: []
   upgradeMenu: {fileID: 0}
   hpBar: {fileID: 788907499}
 --- !u!61 &304691937
@@ -1375,7 +1374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304691935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -558, y: -299.82, z: 0}
+  m_LocalPosition: {x: -465, y: -299.82, z: 0}
   m_LocalScale: {x: 180, y: 150, z: 0}
   m_Children:
   - {fileID: 1205729568}
