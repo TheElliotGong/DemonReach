@@ -24,8 +24,6 @@ public class Lycant : MonoBehaviour
         maxHealth = health;
         velocity = new Vector2(speed, 0);
 
-        upgradeMenu = GameObject.Find("Upgrades");
-
     }
 
     // Update is called once per frame

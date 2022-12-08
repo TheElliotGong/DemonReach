@@ -123,7 +123,6 @@ public class Player : MonoBehaviour
         {
             hp -= 7.5f;
             hpBar.fillAmount = hp / maxHP;
-            Debug.Log("player hit");
             //knockback
             /*
             if (collision.transform.position.y < rigidBody.transform.position.y)
